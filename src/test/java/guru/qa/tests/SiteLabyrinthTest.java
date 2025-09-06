@@ -51,6 +51,7 @@ public class SiteLabyrinthTest extends TestBase {
 
     @EnumSource(TabsHeader.class)
     @ParameterizedTest
+    @Tag("NORMAL")
     @DisplayName("Табы отображаются в хедере")
     void sectionsOfTheSiteDisplayed(TabsHeader tabInHeader) {
         productSearchPage.openPage()
