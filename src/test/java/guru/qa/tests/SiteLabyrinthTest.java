@@ -64,6 +64,6 @@ public class SiteLabyrinthTest extends TestBase {
     @Test
     @DisplayName("Поиск товара со спутника МКС")
     void disabledTest() {
-        System.out.println("Этот тест не запустится");
+        System.out.println("Пока проблемы, Хьюстон");
     }
 }
